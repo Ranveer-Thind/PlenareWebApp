@@ -1,0 +1,129 @@
+body {
+    font-family: Tahoma;
+}
+
+header {
+    text-align: center;
+}
+
+p{
+  font-size: 20pt;
+}
+h2{
+  font-size: 12pt;
+}
+
+#Buttons{
+  float: left;
+}
+
+#PriList{
+  float: right;
+  width: 250px;
+  font-size: 20pt;
+}
+
+#calendar {
+    width: 75%;
+}
+
+#calendar a {
+    color: #8e352e;
+    text-decoration: none;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#calendar li {
+    display: block;
+    float: left;
+    width:25%;
+    padding: 5px;
+    box-sizing:border-box;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+    height: 40px;
+    background: #8e352e;
+}
+
+#calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#calendar .days li {
+    height: 80px;
+}
+
+
+#calendar .event {
+    clear: both;
+    display: block;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: 14px;
+    background: #e4f2f2;
+    border: 1px solid #b5dbdc;
+    color: #009aaf;
+    text-decoration: none;
+}
+
+#calendar .eventBig {
+    clear: both;
+    display: block;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: 14px;
+    background: #e4f2f2;
+    border: 1px solid #b5dbdc;
+    color: #009aaf;
+    text-decoration: none;
+}
+
+#calendar .event-desc {
+    color: black;
+    margin: 3px 0 7px 0;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+  background-color: #8e352e;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red
+}
+
+#calendar .other-month {
+    background: #f5f5f5;
+    color: #666;
+    z-index: -1;
+    border: 0.5px solid #ccc;
+    font-size: 20px;
+}
