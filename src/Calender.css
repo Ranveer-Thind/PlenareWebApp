@@ -6,8 +6,12 @@ header {
     text-align: center;
 }
 
+#Priority{
+  font-size: 40pt;
+}
+
 #calendar {
-    width: 100%;    
+    width: 100%;
 }
 
 #calendar a {
@@ -73,7 +77,7 @@ header {
     font-size: 13px;
     border-radius: 4px;
     padding: 5px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 5px;
     line-height: 14px;
     background: #e4f2f2;
@@ -85,10 +89,25 @@ header {
 #calendar .event-desc {
     color: #666;
     margin: 3px 0 7px 0;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 #calendar .other-month {
     background: #f5f5f5;
     color: #666;
+}
+
+a:link, a:visited {
+  background-color: #8e352e;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red
 }
